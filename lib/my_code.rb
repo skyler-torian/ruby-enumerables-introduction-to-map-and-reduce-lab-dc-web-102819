@@ -6,4 +6,8 @@ end
 def map_to_no_change(array)
   array
 end
+
+def map_to_double(array)
+  array.map {|element| element * 2}
+end
   
